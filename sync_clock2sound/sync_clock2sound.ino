@@ -62,8 +62,8 @@ int main(void)
   setup();
   while (1)
   {
-
-  if (pot3 > 185) {
+//160
+  if (pot3 > 160) {
            synth.mTrigger(0,(55));
                value.r = 255; value.g = 0; value.b = 0; // RGB Value -> Blue
     LED.set_crgb_at(count_led, value); // Set value at LED found at index 0
